@@ -13,7 +13,6 @@ export class GoogleMaps {
 
   constructor(public connectivityService: Connectivity,
               public geolocation: Geolocation) {
-    this.apiKey = 'AIzaSyAWS34vWCuOpm_RFuwR7GnUPzjTqHEBtCQ';
   }
 
   init(mapElement: any, pleaseConnect: any): Promise<any> {
